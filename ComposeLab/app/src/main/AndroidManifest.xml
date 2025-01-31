@@ -13,6 +13,11 @@
         android:theme="@style/Theme.ComposeLab"
         tools:targetApi="31">
         <activity
+            android:name=".NavigationPraticeActivity"
+            android:exported="true"
+            android:label="@string/title_activity_navigation_pratice"
+            android:theme="@style/Theme.ComposeLab" />
+        <activity
             android:name=".MainActivity2"
             android:exported="true"
             android:label="@string/title_activity_main2"
